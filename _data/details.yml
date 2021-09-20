@@ -4,3 +4,33 @@ name: Elias-Vasileios Varelas
 urls:
   - github.com/hlias31
   - linkedin.com/in/hlias-varelas-526391b8//
+
+#Education
+Education:
+ - High School Third General High School of AXD
+ - UnderGrad in Computer Science Department of the Ionian University
+
+#Interests
+Interests:
+ - Biology
+ - Bioinformatics
+ - Gaming
+
+#Programming Languages
+Programming:
+ - PHP
+ - SQL
+ - C++
+ - Java
+
+#Speaking Languages
+Languages:
+ - Greek(Native language)
+ - English(C2)
+ - German(B1)
+
+#CV
+career:
+ title: Career Profile
+ summary: | I am a computer science student currently trying to graduate from the Ionian University with hopes of becoming a Reasearch Analyst in the BiHE Laboratory of my Department. I am also intrested in the security aspects of the Informatics Branch as well as Network Development. I am in love with Molecular Biology, Science and Chemistry.
+

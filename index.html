@@ -1,4 +1,5 @@
 ---
+layout: default
 ---
 <!DOCTYPE html>
 <html>
@@ -8,11 +9,31 @@
 </head>
 <body>
  <h1>Hellow World, this is the {{site.data.details.name}}!</h1>
- <h3>My Accounts:</h3>
+ <h2>{{site.data.details.career.title}}
+ <p>{{site.data.details.career.summary}}</p>
+ <h3>Contact Me:</h3>
  <ul>
    {%for url in site.data.details.urls %}
      <li><a href = "http://{{url}}">{{url}}</a><li>
    {% endfor %}
+ </ul>
+ <h3>Programming Languages</h3>
+ <ul>
+  {% for language in site.data.details.Programming %}
+  <li><p>{{language}}</p><li>
+  {% nedfor %}
+ </ul>
+ <h3>Speaking Languages</h3>
+ <ul>
+  {% for lang in site.data.details.Languages %}
+  <li><p>{{lang}}</p></li>
+  {% endfor %}
+ </ul>
+ <h3>Interests</h3>
+ <ul>
+  {% for inte in site.data.details.Interests %}
+  <li><p>{{inte}}</p></li>
+  {% endfor %}
  </ul>
 </body>
 </html>
